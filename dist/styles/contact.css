@@ -1,0 +1,39 @@
+img{
+    width: 48px;
+    height: 48px;
+    padding-right: 10px;
+}
+
+p{
+    color: white;
+    font-weight: bold;
+}
+
+.content1{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.phone-num{
+    display: inline-flex;
+}
+
+.email{
+    display: inline-flex;
+}
+
+.address{
+    display: inline-flex;
+}
+
+.address p{
+    display: block;
+}
+
+.social-media a{
+    text-decoration: none;
+    background: none;
+}
+
+.social-media a:hover, a:focus{
+    border: none;
+}
