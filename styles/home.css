@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  /* height: 700px;
+    width: 1080px; */
+  background-image: url(../images/bg-image.JPG);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1800px 1200px;
+  /* background-position-x:  -58px; */
+  background-position-y: -250px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.nav-bar-items {
+  padding-left: 30px;
+  font-size: 1.5em;
+}
+
+.nav-bar-items a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-bar-items a:hover,
+a:focus {
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  padding: 1px;
+}
+
+.active-nav-link a {
+  border-bottom: 2px solid black;
+  color: black !important;
+}
+
+/* Main Content CSS */
+
+.main-content {
+  padding-top: 200px;
+  padding-left: 230px;
+  line-height: 10px;
+  animation: 3s slidein;
+}
+
+.main-heading {
+  font-size: 40px;
+  color: white;
+}
+
+.main-data {
+  color: white;
+}
+
+/* text writing */
+
+h5 {
+  font-weight: 20;
+  margin: 0.4em 0;
+  line-height: 2;
+}
+
+/* About Page Styling */
+
+.content {
+  border: 1px solid #235f20;
+  width: 563px;
+  height: 300px;
+  margin-left: 200px;
+  margin-top: 170px;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px;
+}
+
+.main-para p {
+  font-size: 30px;
+  line-height: 50px;
+}
+
+/*Animation*/
+
+@keyframes slidein {
+  0% {
+    margin-left: 100%;
+    opacity: 0;
+  }
+
+  90% {
+    margin-left: 5%;
+    opacity: 1;
+  }
+}
