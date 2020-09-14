@@ -11,6 +11,12 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.container {
+  opacity: 0;
+  display: none;
+  transition: opacity 2s ease-in;
+}
+
 .nav-bar {
   display: flex;
   padding-left: 200px;
