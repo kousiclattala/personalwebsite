@@ -9,25 +9,23 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
       rel="stylesheet"
     />
+    <script src="javascript/dropdown.js"></script>
   </head>
   <body>
-    <div class="nav-bar">
-      <div class="nav-bar-items">
+    <div class="nav-bar dropdown">
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+
+      <div id="myDropdown" class="nav-bar-items dropdown-content">
         <a href="index.html">Home</a>
-      </div>
-      <div class="nav-bar-items active-nav-link">
-        <a href="about.html">About</a>
-      </div>
-      <div class="nav-bar-items">
+
+        <a href="about.html" class="active-nav-link">About</a>
+
         <a href="resume.html">Resume</a>
-      </div>
-      <div class="nav-bar-items">
+
         <a href="skills.html">Skills</a>
-      </div>
-      <div class="nav-bar-items">
+
         <a href="blogs.html">Blogs</a>
-      </div>
-      <div class="nav-bar-items">
+
         <a href="contact.html">Contact</a>
       </div>
     </div>

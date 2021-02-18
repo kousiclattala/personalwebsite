@@ -10,25 +10,23 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/skills.css" />
+    <script src="javascript/dropdown.js"></script>
   </head>
   <body>
-    <div class="nav-bar">
-      <div class="nav-bar-items">
+    <div class="nav-bar dropdown">
+      <button onclick="myFunction()" class="dropbtn">Menu</button>
+
+      <div id="myDropdown" class="nav-bar-items dropdown-content">
         <a href="index.html">Home</a>
-      </div>
-      <div class="nav-bar-items">
+
         <a href="about.html">About</a>
-      </div>
-      <div class="nav-bar-items">
+
         <a href="resume.html">Resume</a>
-      </div>
-      <div class="nav-bar-items active-nav-link">
-        <a href="skills.html">Skills</a>
-      </div>
-      <div class="nav-bar-items">
+
+        <a href="skills.html" class="active-nav-link">Skills</a>
+
         <a href="blogs.html">Blogs</a>
-      </div>
-      <div class="nav-bar-items">
+
         <a href="contact.html">Contact</a>
       </div>
     </div>

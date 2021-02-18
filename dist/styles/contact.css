@@ -37,3 +37,11 @@ p{
 .social-media a:hover, a:focus{
     border: none;
 }
+
+/* Media queries */
+
+@media (max-width: 560px) {
+
+    
+  }
+  
