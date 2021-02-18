@@ -111,7 +111,7 @@ h5 {
 
 /* *Media queries */
 
-@media (max-width: 560px) {
+@media (max-width: 480px) {
   body {
     background-image: url(../images/bg-image.JPG);
     background-attachment: fixed;
