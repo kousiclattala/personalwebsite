@@ -5,7 +5,7 @@
 
 /* Media queries */
 
-@media (max-width: 560px) {
+@media (max-width: 480px) {
   .main-data {
     padding-left: 50px;
     padding-top: 80px;
