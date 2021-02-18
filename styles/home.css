@@ -34,6 +34,7 @@ body {
   text-decoration: none;
   color: black;
   /* transition: all 0.3s ease-in-out; */
+  margin-right: 10px;
 }
 
 .nav-bar-items a:hover,
@@ -41,7 +42,7 @@ a:focus {
   border-bottom: 2px solid black;
 }
 
-.active-nav-link a {
+.active-nav-link {
   border-bottom: 2px solid black;
   color: black !important;
 }
@@ -101,5 +102,122 @@ h5 {
   60% {
     margin-left: 15%;
     opacity: 1;
+  }
+}
+
+.dropbtn {
+  display: none;
+}
+
+/* *Media queries */
+
+@media (max-width: 560px) {
+  body {
+    background-image: url(../images/bg-image.JPG);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1800px 1200px;
+    /* background-position-x:  -58px; */
+    background-position-y: -250px;
+    background-position-x: -850px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .nav-bar {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 50px;
+  }
+
+  /** About Page  */
+  .main-content {
+    padding-top: 100px;
+    padding-left: 50px;
+    line-height: 10px;
+    animation: none;
+  }
+
+  .content {
+    border: 1px solid #235f20;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px;
+  }
+
+  .main-heading {
+    font-size: 20px;
+    color: white;
+  }
+
+  .main-data {
+    color: white;
+  }
+
+  .main-content {
+    padding-top: 50px;
+    padding-left: 30px;
+    line-height: 10px;
+  }
+
+  .main-para p {
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  /** Dropdown Menu  */
+
+  /* *Dropdown Button */
+  .dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover,
+  .dropbtn:focus {
+    background-color: #2980b9;
+    /* display: block; */
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
   }
 }
